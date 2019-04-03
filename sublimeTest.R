@@ -1,0 +1,7 @@
+importlibrary("imgcat")
+library(imgcat)
+r1 <- c(1,2,3)
+r2 <- c(1,2,3)
+data <- rbind(r1, r2)
+print(class(data))
+print(data)
